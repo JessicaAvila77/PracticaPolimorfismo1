@@ -12,6 +12,7 @@ namespace PracticaPolimorfismo1
         public double Ancho { get; set; }
 
         //Metodo constructor que recibe parametros
+        public Rectangulo() { } 
 
         public Rectangulo(double largo, double ancho)
         {

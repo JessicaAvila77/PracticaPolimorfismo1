@@ -11,6 +11,9 @@ namespace PracticaPolimorfismo1
         public double radio;
 
         //Metodo constructor
+
+        public Circulo() { }    
+
         public Circulo  (double radio)
         {
             this.radio = radio;

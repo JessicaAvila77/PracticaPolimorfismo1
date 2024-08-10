@@ -13,6 +13,8 @@ namespace PracticaPolimorfismo1
 
         //Metodo constructor
 
+        public Triangulo() { }
+
         public Triangulo(double baseTriangulo, double altura)
         {
             this.baseTriangulo = baseTriangulo;

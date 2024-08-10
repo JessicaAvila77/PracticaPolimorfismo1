@@ -19,6 +19,7 @@ namespace PracticaPolimorfismo1
 
             do
             {
+                //metodo que contiene el menu de opciones
                 Opcion = Menu();
 
                 switch (Opcion)
@@ -56,10 +57,12 @@ namespace PracticaPolimorfismo1
                         break;
 
                     case 4:
+                        Console.WriteLine("");
                         Console.WriteLine("Gracias por usar nuestros servicios");
                         break;
 
                     default:
+                        Console.WriteLine("");
                         Console.WriteLine("Ingrese una opcion válida");
                         break;
 
@@ -83,10 +86,7 @@ namespace PracticaPolimorfismo1
                     figura.Imprimir();
                 }
 
-            } else
-            {
-                Console.WriteLine("Gracias por usar nuestro sistema");
-            }
+            } 
             
 
         }
